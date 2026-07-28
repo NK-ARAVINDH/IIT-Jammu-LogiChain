@@ -1,0 +1,30 @@
+BILL OF LADING
+==============
+
+Shipment Reference: SHP-2024-9001
+Date: 2024-12-15
+
+Shipper/Supplier: Foxconn Technology Group
+Origin: Shenzhen, China
+Port of Loading: Shanghai
+
+Consignee: BMW AG
+Destination: Stuttgart, Germany
+Port of Discharge: Singapore
+ETA: 2025-01-05
+
+Goods Description: Semiconductor Chips (7nm FinFET)
+Quantity: 120000
+Gross Weight: 3200 kg
+
+Container: MSKU-4472891
+Priority: Critical
+
+Special Instructions:
+Temperature-controlled storage required.
+Handle with care - ESD sensitive components.
+Insurance value: $4,800,000 USD
+
+Terms: CIF Singapore
+Vessel: MV Pacific Navigator
+Voyage: PN-2024-089

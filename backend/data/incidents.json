@@ -1,0 +1,154 @@
+{
+  "incidents": [
+    {
+      "incident_id": "INC-2024-001",
+      "type": "Port Strike",
+      "severity": 8,
+      "affected_port": "Singapore",
+      "description": "Dock workers at Port of Singapore have initiated a 72-hour strike over wage disputes, causing severe container handling delays.",
+      "confidence": 0.92,
+      "region": "Southeast Asia",
+      "expected_delay_days": 5
+    },
+    {
+      "incident_id": "INC-2024-002",
+      "type": "Cyclone",
+      "severity": 9,
+      "affected_port": "Mumbai",
+      "description": "Cyclone Biparjoy approaching western Indian coast. Port operations suspended. Vessels rerouted to alternate berths.",
+      "confidence": 0.95,
+      "region": "South Asia",
+      "expected_delay_days": 7
+    },
+    {
+      "incident_id": "INC-2024-003",
+      "type": "Customs Delay",
+      "severity": 5,
+      "affected_port": "Shanghai",
+      "description": "New regulatory inspection requirements for electronic components. Additional 48-hour customs clearance time expected.",
+      "confidence": 0.88,
+      "region": "East Asia",
+      "expected_delay_days": 3
+    },
+    {
+      "incident_id": "INC-2024-004",
+      "type": "Port Congestion",
+      "severity": 7,
+      "affected_port": "Los Angeles",
+      "description": "Record container volumes causing 15+ vessel queue. Average wait time increased to 4 days. Chassis shortage reported.",
+      "confidence": 0.90,
+      "region": "North America",
+      "expected_delay_days": 4
+    },
+    {
+      "incident_id": "INC-2024-005",
+      "type": "Heavy Rain",
+      "severity": 4,
+      "affected_port": "Rotterdam",
+      "description": "Persistent heavy rainfall across Netherlands causing minor delays in port operations. Visibility reduced for crane operations.",
+      "confidence": 0.78,
+      "region": "Europe",
+      "expected_delay_days": 1
+    },
+    {
+      "incident_id": "INC-2024-006",
+      "type": "Political Conflict",
+      "severity": 9,
+      "affected_port": "Dubai",
+      "description": "Escalating geopolitical tensions in the Red Sea region. Multiple shipping lines suspending transits through Suez Canal.",
+      "confidence": 0.87,
+      "region": "Middle East",
+      "expected_delay_days": 10
+    },
+    {
+      "incident_id": "INC-2024-007",
+      "type": "Fuel Price Spike",
+      "severity": 6,
+      "affected_port": "Singapore",
+      "description": "Brent crude surged 15% in 48 hours. Bunker fuel costs at Singapore up 22%. Carriers adding emergency fuel surcharges.",
+      "confidence": 0.93,
+      "region": "Global",
+      "expected_delay_days": 0
+    },
+    {
+      "incident_id": "INC-2024-008",
+      "type": "Flood",
+      "severity": 7,
+      "affected_port": "Mumbai",
+      "description": "Severe monsoon flooding in Mumbai metropolitan area. Road connectivity to JNPT disrupted. Container evacuation delayed.",
+      "confidence": 0.91,
+      "region": "South Asia",
+      "expected_delay_days": 4
+    },
+    {
+      "incident_id": "INC-2024-009",
+      "type": "Equipment Failure",
+      "severity": 5,
+      "affected_port": "Shanghai",
+      "description": "Two STS gantry cranes at Yangshan Deep Water Port offline for emergency maintenance. Terminal throughput reduced by 30%.",
+      "confidence": 0.85,
+      "region": "East Asia",
+      "expected_delay_days": 2
+    },
+    {
+      "incident_id": "INC-2024-010",
+      "type": "Dock Congestion",
+      "severity": 6,
+      "affected_port": "Rotterdam",
+      "description": "Surge in Asian imports causing berth allocation delays. Feeder vessel connections disrupted at ECT Delta terminal.",
+      "confidence": 0.82,
+      "region": "Europe",
+      "expected_delay_days": 3
+    },
+    {
+      "incident_id": "INC-2024-011",
+      "type": "Typhoon Warning",
+      "severity": 8,
+      "affected_port": "Shanghai",
+      "description": "Typhoon Gaemi approaching East China Sea. Shanghai port authority issued Level III emergency response. Vessel departures halted.",
+      "confidence": 0.94,
+      "region": "East Asia",
+      "expected_delay_days": 4
+    },
+    {
+      "incident_id": "INC-2024-012",
+      "type": "Labor Shortage",
+      "severity": 4,
+      "affected_port": "Los Angeles",
+      "description": "Truck driver shortage in Southern California affecting container drayage. Average pickup wait time increased to 6 hours.",
+      "confidence": 0.79,
+      "region": "North America",
+      "expected_delay_days": 2
+    },
+    {
+      "incident_id": "INC-2024-013",
+      "type": "Sanctions Alert",
+      "severity": 7,
+      "affected_port": "Dubai",
+      "description": "New OFAC sanctions list update affecting 12 vessels. Enhanced screening procedures causing clearance delays at Jebel Ali.",
+      "confidence": 0.86,
+      "region": "Middle East",
+      "expected_delay_days": 3
+    },
+    {
+      "incident_id": "INC-2024-014",
+      "type": "Port Strike",
+      "severity": 6,
+      "affected_port": "Mumbai",
+      "description": "Customs officers at JNPT staging work slowdown over staffing concerns. Document processing times tripled.",
+      "confidence": 0.84,
+      "region": "South Asia",
+      "expected_delay_days": 3
+    },
+    {
+      "incident_id": "INC-2024-015",
+      "type": "Cyber Attack",
+      "severity": 8,
+      "affected_port": "Rotterdam",
+      "description": "Ransomware attack on port management system at APM Terminals. Container tracking and gate operations disrupted.",
+      "confidence": 0.89,
+      "region": "Europe",
+      "expected_delay_days": 5
+    }
+  ]
+}

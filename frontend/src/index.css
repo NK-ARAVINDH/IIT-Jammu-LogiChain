@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Base Styles ===== */
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-surface-950 text-surface-100 min-h-screen;
+  }
+
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-surface-900;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-surface-700 rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-surface-600;
+  }
+}
+
+/* ===== Component Utilities ===== */
+@layer components {
+  /* Glass Card */
+  .glass {
+    @apply bg-surface-900/60 backdrop-blur-xl border border-surface-700/50 rounded-xl;
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.03),
+      0 4px 24px rgba(0, 0, 0, 0.25);
+  }
+
+  .glass-hover {
+    @apply glass transition-all duration-300;
+  }
+  .glass-hover:hover {
+    @apply bg-surface-800/70 border-surface-600/50;
+    box-shadow:
+      0 0 0 1px rgba(255, 255, 255, 0.05),
+      0 8px 40px rgba(0, 0, 0, 0.35);
+    transform: translateY(-2px);
+  }
+
+  /* Gradient Border Card */
+  .gradient-border {
+    position: relative;
+    @apply rounded-xl;
+  }
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, rgba(51, 129, 255, 0.3), rgba(139, 92, 246, 0.3), rgba(6, 182, 212, 0.3));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+
+  /* KPI Card Gradient Backgrounds */
+  .kpi-blue {
+    background: linear-gradient(135deg, rgba(51, 129, 255, 0.1), rgba(6, 182, 212, 0.05));
+  }
+  .kpi-amber {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(249, 115, 22, 0.05));
+  }
+  .kpi-red {
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.1), rgba(244, 63, 94, 0.05));
+  }
+  .kpi-green {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(34, 197, 94, 0.05));
+  }
+  .kpi-violet {
+    background: linear-gradient(135deg, rgba(139, 92, 246, 0.1), rgba(51, 129, 255, 0.05));
+  }
+
+  /* Skeleton shimmer */
+  .skeleton {
+    @apply bg-surface-800 rounded-lg;
+    background: linear-gradient(
+      90deg,
+      rgb(30 41 59 / 0.6) 25%,
+      rgb(51 65 85 / 0.6) 50%,
+      rgb(30 41 59 / 0.6) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 2s linear infinite;
+  }
+
+  /* Risk badges */
+  .badge-low {
+    @apply bg-risk-low/15 text-risk-low border border-risk-low/30;
+  }
+  .badge-medium {
+    @apply bg-risk-medium/15 text-risk-medium border border-risk-medium/30;
+  }
+  .badge-high {
+    @apply bg-risk-high/15 text-risk-high border border-risk-high/30;
+  }
+  .badge-critical {
+    @apply bg-risk-critical/15 text-risk-critical border border-risk-critical/30;
+  }
+
+  /* Sidebar */
+  .sidebar-item {
+    @apply flex items-center gap-3 px-3 py-2.5 rounded-lg text-surface-400 text-sm font-medium
+           transition-all duration-200 cursor-pointer;
+  }
+  .sidebar-item:hover {
+    @apply bg-surface-800/60 text-surface-200;
+  }
+  .sidebar-item.active {
+    @apply bg-brand-500/10 text-brand-400 border-l-2 border-brand-500;
+  }
+
+  /* Agent step animation */
+  .agent-step-line {
+    @apply w-0.5 bg-surface-700 ml-4;
+    transition: background-color 0.5s ease;
+  }
+  .agent-step-line.completed {
+    @apply bg-brand-500;
+  }
+}
+
+/* ===== Utility ===== */
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-brand-400 via-accent-cyan to-accent-violet
+           bg-clip-text text-transparent;
+  }
+
+  .glow-brand {
+    box-shadow: 0 0 20px rgba(51, 129, 255, 0.15);
+  }
+
+  .glow-risk-critical {
+    box-shadow: 0 0 20px rgba(239, 68, 68, 0.2);
+  }
+}

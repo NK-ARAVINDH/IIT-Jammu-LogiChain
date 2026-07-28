@@ -1,0 +1,33 @@
+SHIPPING MANIFEST & BILL OF LADING
+===================================
+Document Ref: SHP-2024-8844
+Ingestion Date: 2024-12-20
+
+SUPPLIER PROFILE
+-----------------
+Shipper Name: BASF SE
+Origin Address: Ludwigshafen Chemical Complex, Germany
+Port of Loading: Rotterdam (NLRTM)
+
+CONSIGNEE PROFILE
+------------------
+Recipient: Chennai Automotive Corp
+Destination: Chennai, India
+Port of Discharge: Mumbai (INNSA)
+ETA: 2025-01-08
+
+CARGO DETAILS
+--------------
+Items: Industrial Polymers & Polyurethane Resins
+Quantity: 18500
+Gross Weight: 32000.0 kg
+Container ID: MSKU-8849173
+Priority: High
+
+LOGISTICS PROTOCOL
+-------------------
+Storage Temp: Ambient (15-25°C)
+Hazard Class: Class 9 (Misc Dangerous Goods)
+Vessel Class: Container Carrier (MV Atlantic Sovereign)
+Voyage Reference: AS-2024-12
+Status: In Transit

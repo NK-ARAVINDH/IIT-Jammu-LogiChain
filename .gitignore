@@ -1,0 +1,8 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+backend/logichain.db
+backend/uploads/
+dist/
+.DS_Store

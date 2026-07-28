@@ -1,0 +1,29 @@
+PURCHASE ORDER
+==============
+
+PO Number: SHP-2024-9002
+Date: 2024-12-18
+
+Supplier: Samsung SDI Co.
+Origin: Ulsan, South Korea
+
+Ship To: Tesla Gigafactory
+Destination: Fremont, USA
+Port: Los Angeles
+
+ETA: 2025-01-12
+
+Items: EV Battery Cells (4680 Format)
+Quantity: 50000
+Weight: 28500 kg
+Container: TCLU-8834521
+
+Priority: High
+
+Payment Terms: Net 30
+Incoterms: FOB Ulsan
+
+Notes:
+- Lithium-ion cells require IMDG Class 9 certification
+- Temperature must not exceed 45°C during transit
+- Weekly status updates required

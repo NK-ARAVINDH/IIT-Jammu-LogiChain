@@ -1,0 +1,70 @@
+{
+  "ports": [
+    {
+      "code": "SGSIN",
+      "name": "Port of Singapore",
+      "city": "Singapore",
+      "country": "Singapore",
+      "region": "Southeast Asia",
+      "lat": 1.2644,
+      "lng": 103.8222,
+      "congestion_level": 0.72,
+      "avg_delay_hours": 18
+    },
+    {
+      "code": "CNSHA",
+      "name": "Port of Shanghai",
+      "city": "Shanghai",
+      "country": "China",
+      "region": "East Asia",
+      "lat": 31.3622,
+      "lng": 121.5886,
+      "congestion_level": 0.65,
+      "avg_delay_hours": 14
+    },
+    {
+      "code": "NLRTM",
+      "name": "Port of Rotterdam",
+      "city": "Rotterdam",
+      "country": "Netherlands",
+      "region": "Europe",
+      "lat": 51.9496,
+      "lng": 4.1453,
+      "congestion_level": 0.45,
+      "avg_delay_hours": 8
+    },
+    {
+      "code": "USLAX",
+      "name": "Port of Los Angeles",
+      "city": "Los Angeles",
+      "country": "United States",
+      "region": "North America",
+      "lat": 33.7395,
+      "lng": -118.2600,
+      "congestion_level": 0.58,
+      "avg_delay_hours": 12
+    },
+    {
+      "code": "INNSA",
+      "name": "Jawaharlal Nehru Port",
+      "city": "Mumbai",
+      "country": "India",
+      "region": "South Asia",
+      "lat": 18.9500,
+      "lng": 72.9500,
+      "congestion_level": 0.61,
+      "avg_delay_hours": 16
+    },
+    {
+      "code": "AEJEA",
+      "name": "Jebel Ali Port",
+      "city": "Dubai",
+      "country": "UAE",
+      "region": "Middle East",
+      "lat": 25.0119,
+      "lng": 55.0636,
+      "congestion_level": 0.38,
+      "avg_delay_hours": 6
+    }
+  ]
+}
